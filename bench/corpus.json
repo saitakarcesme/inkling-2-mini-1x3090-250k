@@ -1,0 +1,23 @@
+{
+ "source_root": "maya/src",
+ "first_file": "artifact/gguf_reader_test.cpp",
+ "function": "put_str",
+ "files_available": 380,
+ "sizes": {
+  "64k": {
+   "tokens_raw": 63711,
+   "files": 13,
+   "chars": 177238
+  },
+  "128k": {
+   "tokens_raw": 127762,
+   "files": 17,
+   "chars": 337956
+  },
+  "245k": {
+   "tokens_raw": 244720,
+   "files": 44,
+   "chars": 628570
+  }
+ }
+}

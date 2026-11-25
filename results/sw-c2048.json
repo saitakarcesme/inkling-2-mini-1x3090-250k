@@ -1,0 +1,33 @@
+{
+ "label": "sw-c2048",
+ "base": "http://127.0.0.1:18111/v1",
+ "model": "inkling-2-mini",
+ "temperature": 1.0,
+ "extra": {},
+ "started": "2026-11-25 00:52:54",
+ "gpus": "0, NVIDIA GeForce RTX 3090, 350.00 W, 793 MiB, 2100 MHz, 615.78.08\n1, NVIDIA GeForce RTX 3090, 420.00 W, 23350 MiB, 2100 MHz, 615.78.08",
+ "results": {
+  "long/245k": {
+   "wall_s": 179.28,
+   "ttft_s": 172.7,
+   "prompt_tokens": 244752,
+   "completion_tokens": 577,
+   "cached_tokens": 0,
+   "finish": "stop",
+   "decode_tok_s": 87.6,
+   "e2e_tok_s": 3.2,
+   "prefill_tok_s": 1417.2,
+   "server_prompt_per_second": 1418.8,
+   "server_predicted_per_second": 87.8,
+   "server_prompt_n": 244752,
+   "server_predicted_n": 577,
+   "server_cache_n": 0,
+   "server_draft_n": 0,
+   "server_draft_n_accepted": 0,
+   "found_file": true,
+   "found_fn": true,
+   "answer_head": "1. `artifact/gguf_reader_test.cpp` defines the function `put_str`. It appends a string to a `std::vector<uint8_t>` buffer by writing the length as a `uint64_t`, then inserting the raw string bytes. Its signature is:\n\n```cpp\nvoid put_str(std::vector<uint8_t>& b, const std::string& s)\n```\n\n2. - The codebase is organized into `artifact/`, `core/`, `include/strata/`, `kernels/`, `plan/`, `tools/`, and"
+  }
+ },
+ "finished": "2026-11-25 00:55:54"
+}
